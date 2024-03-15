@@ -1,1 +1,1 @@
-# Blog-Generation-Platform-
+# Blog-Generation-Platform
