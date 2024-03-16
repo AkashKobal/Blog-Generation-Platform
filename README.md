@@ -49,7 +49,7 @@ pip install streamlit
    - The generated response from the LLama 2 model is displayed in the Streamlit interface for the user to review.
    - Run the command in terminal
    - ```txt
-      streamlit run model.py
+      streamlit run webapp.py
       ```
 
   
