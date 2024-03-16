@@ -1,4 +1,6 @@
 # Blog-Generation-Platform
+## _Example_
+![alt_text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/Screenshot%20(324).png)
 
 1. **Import Statements**:
    - You import the `CTransformers` module from both `langchain.llms` and `langchain_community.llms`. Ensure that you need both imports and that they are correctly referencing the desired functionality [[2](https://github.com/marella/ctransformers)].
