@@ -12,7 +12,9 @@
 
 ### Download model from [Hugging Face](https://huggingface.co/localmodels/Llama-2-7B-Chat-ggml/tree/main) 👈
 
+![alt text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/hg.png)
 
+### Steps to run
 
 1. **Import Statements**:
    - You import the `CTransformers` module from both `langchain.llms` and `langchain_community.llms`. Ensure that you need both imports and that they are correctly referencing the desired functionality.
@@ -45,5 +47,10 @@ pip install streamlit
 
 4. **Final Response**:
    - The generated response from the LLama 2 model is displayed in the Streamlit interface for the user to review.
+   - Run the command in terminal
+   - ```txt
+      streamlit run model.py
+      ```
+
   
 
