@@ -1,8 +1,8 @@
 # Blog-Generation-Platform
 ## _Example_
-
+![alt text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/Screenshot%20(324).png)
 1. **Import Statements**:
-   - You import the `CTransformers` module from both `langchain.llms` and `langchain_community.llms`. Ensure that you need both imports and that they are correctly referencing the desired functionality [[2](https://github.com/marella/ctransformers)].
+   - You import the `CTransformers` module from both `langchain.llms` and `langchain_community.llms`. Ensure that you need both imports and that they are correctly referencing the desired functionality.
 
 2. **Function Definition (`get_response`)**:
    - This function is designed to retrieve a response from the LLama 2 model based on user inputs such as the blog topic, number of words, and writing style.
@@ -17,7 +17,5 @@
 
 4. **Final Response**:
    - The generated response from the LLama 2 model is displayed in the Streamlit interface for the user to review.
+  
 
-## 🌐 Sources
-1. [GitHub - marella/ctransformers](https://github.com/marella/ctransformers)
-2. [C Transformers - Python Integration](https://python.langchain.com/docs/integrations/providers/ctransformers)
