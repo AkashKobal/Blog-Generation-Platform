@@ -3,6 +3,21 @@
 ![alt text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/Screenshot%20(324).png)
 1. **Import Statements**:
    - You import the `CTransformers` module from both `langchain.llms` and `langchain_community.llms`. Ensure that you need both imports and that they are correctly referencing the desired functionality.
+     
+```python !
+pip install langchain
+```
+```python
+pip install langchain_community
+```  
+```python 
+pip install CTransformers
+```
+```python 
+pip install streamlit
+```  
+
+
 
 2. **Function Definition (`get_response`)**:
    - This function is designed to retrieve a response from the LLama 2 model based on user inputs such as the blog topic, number of words, and writing style.
