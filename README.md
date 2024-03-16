@@ -1,4 +1,4 @@
-# Blog-Generation-Platform
+# Blog-Generation-Platform-With-LLAMA
 ## _Example_
 ![alt text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/Screenshot%20(324).png)
 1. **Import Statements**:
