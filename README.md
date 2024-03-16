@@ -1,4 +1,23 @@
 # Blog-Generation-Platform-With-LLAMA
+
+## Description:
+### This repository contains code for generating blog content using the LLama 2 language model. It integrates with Streamlit for easy user interaction. Simply input your blog topic, desired word count, and writing style to generate engaging blog content.
+
+### This GitHub code demonstrates the use of the LLama 2 model for generating blog content using Streamlit. It imports the CTransformers module from langchain.llms and langchain_community.llms for language model integration. The get_response function prompts the user to input a blog topic, number of words, and style, then generates a response using the LLama 2 model. Streamlit is used to create a user-friendly interface for input and output.
+
+### The LLama 2 model is specified with its model file and type, along with configuration parameters such as max_new_tokens and temperature for text generation.
+
+### Streamlit is configured to create a centered layout with collapsed initial sidebar state. Users can input the blog topic, number of words, and select the style of writing (Research, Creative, Technical) before generating the response.
+
+### Finally, upon clicking the "Generate" button, the model generates a response based on the provided inputs and displays it using Streamlit.
+
+## 🚀 Features:
+### - Easy-to-use interface with Streamlit
+### - Integration with LLama 2 model for generating diverse and context-aware blog content
+### - Customize writing style for Research, Creative, or Technical topics
+
+
+
 ## _Example_
 ![alt text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/Screenshot%20(324).png)
 
