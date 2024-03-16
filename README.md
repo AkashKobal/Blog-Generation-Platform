@@ -1,9 +1,21 @@
 # Blog-Generation-Platform-With-LLAMA
 ## _Example_
 ![alt text](https://github.com/AkashKobal/Blog-Generation-Platform/blob/main/Screenshot%20(324).png)
+
+## Download requirements:
+`sentence-transformers`
+`uvicorn`
+`ctransformers`
+`langchain`
+`python-box`
+`streamlit`
+
+### Download model from [Hugging Face](https://huggingface.co/localmodels/Llama-2-7B-Chat-ggml/tree/main) 👈
+
+
+
 1. **Import Statements**:
    - You import the `CTransformers` module from both `langchain.llms` and `langchain_community.llms`. Ensure that you need both imports and that they are correctly referencing the desired functionality.
-     
 ```python !
 pip install langchain
 ```
@@ -15,7 +27,8 @@ pip install CTransformers
 ```
 ```python 
 pip install streamlit
-```  
+```
+
 
 
 
